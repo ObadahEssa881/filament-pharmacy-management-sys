@@ -10,6 +10,38 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Filament Pharmacy Management System
+
+Author: [Obadah Abo Essa](https://www.linkedin.com/in/obadah-abo-essa)  
+Tech Stack: PHP, Laravel, Filament
+
+## Description
+A modern pharmacy management system leveraging Filament (Laravel admin panel) for robust backend administration. This project streamlines pharmacy operations, digitalizes inventory, and enhances reporting, all with a user-friendly UI.
+
+## Features
+- Stock and inventory management
+- Sales and purchase tracking
+- User and role management via Filament
+- Database migrations and seeders
+- Automated testing with PHPUnit
+
+## Project Structure
+- `app/` - Laravel application code
+- `config/`, `database/`, `public/`, `resources/`, `routes/`, `storage/`, `tests/` - Standard Laravel directories
+- `composer.json` / `composer.lock` - Dependency management
+- `README.md` - Project documentation
+
+## Setup
+1. Clone the repo
+2. Install PHP dependencies: `composer install`
+3. Configure `.env` for database access
+4. Run migrations: `php artisan migrate`
+5. Serve the app: `php artisan serve`
+
+## Contributing
+Contributions are welcome for UI, API, and business logic improvements!
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
